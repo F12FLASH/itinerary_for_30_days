@@ -1,0 +1,53 @@
+Các thẻ HTML cơ bản:
+
+Thẻ đóng khối  <div>
+Thẻ tiêu đề <h1> <h2> …
+Thẻ đoạn văn <p>
+Thẻ hình ảnh <img>
+Thẻ link <a>
+Chèn icon
+Chèn font google
+Các thuộc tính css cơ bản:
+
+flexbox
+display: flex;
+
+flex-direction :
+
++ row, theo hàng tương đương với float:left
+
++ row-reverse, theo hàng từ sau ra trước, float:right;
+
++ column, theo cột từ trên xuống dưới
+
++ column-reverse, theo hàng từ dưới lên trên.
+
+flex-wrap (có xuống dòng hay không khi đủ chiều rộng).
+
++ no-wrap: ko xuống dòng, chỉ hiện thị trên 1 hàng
+
++ wrap: đủ chiều rộng của khối cha thì tự động xuống dòng.
+
++ wrap-reverse: đảo ngược.
+
+justify-content:  canh chỉnh theo chiều ngang cho các khối bên trong
+
++ center: tự động căn giữa (tương đương text-align :center)
+
++ flex-start (dồn sang trái)
+
++ flex-end (dồn sang phải)
+
++ space-between ( chia đều trong khối)
+
++ space-around (chia đều các khối và hai lề của khối ngoài).
+
+align-items: canh chỉnh theo chiều dọc (khối bên ngoài phải có độ cao cố định)
+
++ stretch: tự lấp đầy chiều cao
+
++ flex-start: dồn lên trên
+
++ flex-end: dồn xuống dưới.
+
++ base-line: chỉ canh chữ cho thẳng hàng.
